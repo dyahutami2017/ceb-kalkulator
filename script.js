@@ -63,7 +63,7 @@ const calculate = () => {
             result = prevNumber - currentNumber
             break
 
-        case "*":
+        case "x":
             result = prevNumber * currentNumber
             break
 
@@ -102,4 +102,6 @@ decimal.addEventListener('click', (event) => {
     inputDecimal(event.target.value)
     updateScreen(currentNumber)
 })
+
+
 
